@@ -1,0 +1,11 @@
+name: Pierwsze CI/CD
+on:
+  push: 
+    # komentarz
+    branches: 
+    - production
+  pull_request:
+    branches:
+    - production
+  workflow_dispatch:
+    
